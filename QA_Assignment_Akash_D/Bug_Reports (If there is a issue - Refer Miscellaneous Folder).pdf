@@ -1,0 +1,182 @@
+
+--------------------------------------------------------------BUG_REPORTS--------------------------------------------------------------
+
+Bug 1
+------
+Title: Unable to Register as user is navigating to loginn page when clicked on Register
+Severity: Blocker
+
+Steps to Reproduce:
+1.Go to Automation Test Store
+2.Click on Register link
+3.Verify
+
+Expected Result: User should be redirected to registration page
+Actual Result: User is navigating to login page
+
+Environment: Chrome v123
+Impact: Unable to redirect
+
+
+Bug 2
+-------
+Title: User is able to login with invalid password
+Severity: Critical
+
+Steps to Reproduce:
+1.Go to Login Page
+2.Enter Valid username and invalid password
+3.Click on Login and Verify
+
+Expected Result: User should not be logged in
+Actual Result: User is able to login
+
+Environment: Chrome v123
+Impact: Login Functionality accorss all platforms
+
+
+Bug 3
+-------
+Title: Unable to access homepage after login from Mobile
+Severity: Blocker
+
+Steps to Reproduce:
+1.Go to Login Page
+2.Enter Valid username and valid password
+3.Click on Login and Verify
+
+Expected Result: User should be logged in and loading should not happen
+Actual Result: Homepage is loading/rendering
+
+Environment: Android 14, iOS 17
+Impact: User cannot access application
+
+
+Bug 4
+-------
+Title: Unable to add item from Detaied Product Description
+Severity: High
+
+Steps to Reproduce:
+1.Go to Homepage
+2.Add any item from homepage
+3.Now choose any item from homepage
+4.Click on Add to cart button and Verify
+
+Expected Result: User should be able to item from homepage and from Detailed Product Description
+Actual Result: User is able to add item from homepage but from Detailed Product Description user is unable to add
+
+Environment: Chrome v123
+Impact: Unable to add from Detailed Product Description
+
+
+Bug 5
+-------
+Title: Items are not getting added from Cart
+Severity: High
+
+Steps to Reproduce:
+1.Go to Homepage
+2.Add few items from homepage
+3.Go to cart and choose any item and add it one more time
+4.Go to Cart and Verify
+
+Expected Result: Added items should get updated in cart
+Actual Result: Items added from cart is not getting added
+
+Environment: Android 14
+Impact: Unable to add items from cart
+
+
+Bug 6
+-------
+Title: Applied Coupon is getting discarded when any item from cart is removed 
+Severity: High
+
+Steps to Reproduce:
+1.Add few items from homepage
+2.Go to Cart and apply coupon
+3.Remove any item from cart
+4.Verify
+
+Expected Result: Applied Coupon should not get discarded
+Actual Result: Applied coupon should be still present
+
+Environment: Chrome v123
+Impact: Coupon is getting discarded
+
+
+Bug 7
+-------
+Title: Email Notifications are not getting triggered when placed from Mobile 
+Severity: High
+
+Steps to Reproduce:
+1.Add few items from Mobile
+2.Go to Cart and Checkout
+3.Verify Email
+
+Expected Result: Email should get triggered
+Actual Result: Email is not getting triggered
+
+Environment: Android 16, iOS 16
+Impact: Email is not getting triggered
+
+
+
+Bug 8
+-------
+Title: Search a product - API Response is slow 
+Severity: Critical
+
+Steps to Reproduce:
+1.Search an item from Mobile
+2.Verify
+
+Expected Result: Response time should be less than 200 ms
+Actual Result: Takes 50000 ms
+
+Environment: Android 16, iOS 16
+Impact: Performance Issue
+
+
+
+Bug 9
+------
+Title: Order history is not displayed
+Severity: Critical
+
+Steps to Reproduce:
+1.Add an item from Mobile
+2.Checkout and Verify
+
+Expected Result: Order History should be displayed
+Actual Result: Order History is not displayed
+
+Environment: Android 16, iOS 16
+Impact: Order History Functionality Issue
+
+
+
+Bug 10
+-------
+Title: Item price of any in Android and iOS differs 
+Severity: Critical
+
+Steps to Reproduce:
+1.Find a item and verify in Android and iOS
+
+Expected Result: Price should be consistent in any device
+Actual Result: Inconsistent price for item
+
+Environment: Android 16, iOS 16
+Impact: Price Issue
+
+
+
+
+
+
+ 
+
+
